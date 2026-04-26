@@ -1,0 +1,270 @@
+{
+  "images" : [
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max).png",
+      "idiom" : "iphone",
+      "minimum-system-version" : "12.0",
+      "orientation" : "portrait",
+      "scale" : "3x",
+      "subtype" : "2688h"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 2.png",
+      "idiom" : "iphone",
+      "minimum-system-version" : "12.0",
+      "orientation" : "landscape",
+      "scale" : "3x",
+      "subtype" : "2688h"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 1.png",
+      "idiom" : "iphone",
+      "minimum-system-version" : "12.0",
+      "orientation" : "portrait",
+      "scale" : "2x",
+      "subtype" : "1792h"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 3.png",
+      "idiom" : "iphone",
+      "minimum-system-version" : "12.0",
+      "orientation" : "landscape",
+      "scale" : "2x",
+      "subtype" : "1792h"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 4.png",
+      "idiom" : "ipad",
+      "minimum-system-version" : "12.0",
+      "orientation" : "portrait",
+      "scale" : "2x",
+      "subtype" : "2388h"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 5.png",
+      "idiom" : "ipad",
+      "minimum-system-version" : "12.0",
+      "orientation" : "landscape",
+      "scale" : "2x",
+      "subtype" : "2388h"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 6.png",
+      "idiom" : "iphone",
+      "minimum-system-version" : "11.0",
+      "orientation" : "portrait",
+      "scale" : "3x",
+      "subtype" : "2436h"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 7.png",
+      "idiom" : "iphone",
+      "minimum-system-version" : "11.0",
+      "orientation" : "landscape",
+      "scale" : "3x",
+      "subtype" : "2436h"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 8.png",
+      "idiom" : "ipad",
+      "minimum-system-version" : "10.0",
+      "orientation" : "portrait",
+      "scale" : "2x",
+      "subtype" : "2224h"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 9.png",
+      "idiom" : "ipad",
+      "minimum-system-version" : "10.0",
+      "orientation" : "landscape",
+      "scale" : "2x",
+      "subtype" : "2224h"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 10.png",
+      "idiom" : "ipad",
+      "minimum-system-version" : "9.0",
+      "orientation" : "portrait",
+      "scale" : "2x",
+      "subtype" : "1366h"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 11.png",
+      "idiom" : "ipad",
+      "minimum-system-version" : "9.0",
+      "orientation" : "landscape",
+      "scale" : "2x",
+      "subtype" : "1366h"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 12.png",
+      "idiom" : "iphone",
+      "minimum-system-version" : "8.0",
+      "orientation" : "portrait",
+      "scale" : "3x",
+      "subtype" : "736h"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 14.png",
+      "idiom" : "iphone",
+      "minimum-system-version" : "8.0",
+      "orientation" : "landscape",
+      "scale" : "3x",
+      "subtype" : "736h"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 13.png",
+      "idiom" : "iphone",
+      "minimum-system-version" : "8.0",
+      "orientation" : "portrait",
+      "scale" : "2x",
+      "subtype" : "667h"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 15.png",
+      "idiom" : "iphone",
+      "minimum-system-version" : "7.0",
+      "orientation" : "portrait",
+      "scale" : "2x"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 16.png",
+      "idiom" : "iphone",
+      "minimum-system-version" : "7.0",
+      "orientation" : "portrait",
+      "scale" : "2x",
+      "subtype" : "retina4"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 17.png",
+      "idiom" : "ipad",
+      "minimum-system-version" : "7.0",
+      "orientation" : "portrait",
+      "scale" : "1x"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 19.png",
+      "idiom" : "ipad",
+      "minimum-system-version" : "7.0",
+      "orientation" : "landscape",
+      "scale" : "1x"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 18.png",
+      "idiom" : "ipad",
+      "minimum-system-version" : "7.0",
+      "orientation" : "portrait",
+      "scale" : "2x"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 20.png",
+      "idiom" : "ipad",
+      "minimum-system-version" : "7.0",
+      "orientation" : "landscape",
+      "scale" : "2x"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 21.png",
+      "idiom" : "iphone",
+      "orientation" : "portrait",
+      "scale" : "1x"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 22.png",
+      "idiom" : "iphone",
+      "orientation" : "portrait",
+      "scale" : "2x"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 23.png",
+      "idiom" : "iphone",
+      "orientation" : "portrait",
+      "scale" : "2x",
+      "subtype" : "retina4"
+    },
+    {
+      "extent" : "to-status-bar",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 24.png",
+      "idiom" : "ipad",
+      "orientation" : "portrait",
+      "scale" : "1x"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 26.png",
+      "idiom" : "ipad",
+      "orientation" : "portrait",
+      "scale" : "1x"
+    },
+    {
+      "extent" : "to-status-bar",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 28.png",
+      "idiom" : "ipad",
+      "orientation" : "landscape",
+      "scale" : "1x"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 30.png",
+      "idiom" : "ipad",
+      "orientation" : "landscape",
+      "scale" : "1x"
+    },
+    {
+      "extent" : "to-status-bar",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 25.png",
+      "idiom" : "ipad",
+      "orientation" : "portrait",
+      "scale" : "2x"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 27.png",
+      "idiom" : "ipad",
+      "orientation" : "portrait",
+      "scale" : "2x"
+    },
+    {
+      "extent" : "to-status-bar",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 29.png",
+      "idiom" : "ipad",
+      "orientation" : "landscape",
+      "scale" : "2x"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "_Users_breanna_Downloads_clever-negative-space-app-icon--fish-hook-silhouet.svg(iPhone 14 Pro Max) 31.png",
+      "idiom" : "ipad",
+      "orientation" : "landscape",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
