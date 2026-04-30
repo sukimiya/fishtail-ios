@@ -6,22 +6,26 @@ struct HourlyBarView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("⏰ 全天鱼情走势")
-                .font(.headline)
+            Label("全天鱼情走势", systemImage: "chart.xyaxis.line")
+                .font(.system(size: 14, weight: .semibold))
                 .foregroundStyle(Color.fishMuted)
+                .padding(.horizontal, 4)
 
             ScrollViewReader { scroll in
                 ScrollView(.horizontal, showsIndicators: false) {
-                    HStack(alignment: .bottom, spacing: 6) {
+                    HStack(alignment: .bottom, spacing: 8) {
                         ForEach(hourly) { h in
-                            cell(h).id(h.hour)
+                            barCell(h).id(h.hour)
                         }
                     }
-                    .padding(.horizontal, 4)
+                    .padding(.horizontal, 6)
                     .padding(.bottom, 4)
+                    .padding(.top, 20)
                 }
                 .onAppear {
-                    withAnimation { scroll.scrollTo(currentHour, anchor: .center) }
+                    withAnimation(.easeInOut(duration: 0.4)) {
+                        scroll.scrollTo(currentHour, anchor: .center)
+                    }
                 }
             }
         }
@@ -31,33 +35,48 @@ struct HourlyBarView: View {
         .overlay(RoundedRectangle(cornerRadius: 20).stroke(Color.fishBorder))
     }
 
-    private func cell(_ h: HourlyPoint) -> some View {
+    private func barCell(_ h: HourlyPoint) -> some View {
         let isCurrent = h.hour == currentHour
-        let barH = max(4, CGFloat(h.score) * 56)
-        let color: Color = h.score >= 0.7
-            ? Color(red: 0.298, green: 0.686, blue: 0.314)
-            : h.score >= 0.4 ? Color(red: 1.0, green: 0.596, blue: 0.0)
-            : Color(red: 0.957, green: 0.263, blue: 0.212)
+        let barH = max(6, CGFloat(h.score) * 64)
+        let color = Color.scoreColor(for: h.score)
 
-        return VStack(spacing: 4) {
-            Text("\(Int(h.score * 100))%")
-                .font(.system(size: 9))
-                .foregroundStyle(Color.fishMuted)
-            ZStack(alignment: .bottom) {
-                RoundedRectangle(cornerRadius: 4)
-                    .fill(Color.fishTrack)
-                    .frame(width: 24, height: 56)
-                RoundedRectangle(cornerRadius: 4)
-                    .fill(color)
-                    .frame(width: 24, height: barH)
+        return VStack(spacing: 5) {
+            if isCurrent {
+                Image(systemName: "arrowtriangle.down.fill")
+                    .font(.system(size: 8))
+                    .foregroundStyle(Color.fishBlue)
+            } else {
+                Text("\(Int(h.score * 100))")
+                    .font(.system(size: 8))
+                    .foregroundStyle(Color.fishMuted)
             }
+
+            ZStack(alignment: .bottom) {
+                RoundedRectangle(cornerRadius: 5)
+                    .fill(Color.fishTrack)
+                    .frame(width: 22, height: 64)
+                RoundedRectangle(cornerRadius: 5)
+                    .fill(
+                        LinearGradient(
+                            colors: [color.opacity(0.7), color],
+                            startPoint: .bottom, endPoint: .top
+                        )
+                    )
+                    .frame(width: 22, height: barH)
+            }
+
             Text(String(format: "%02d", h.hour))
-                .font(.system(size: 9))
-                .foregroundStyle(Color.fishMuted)
+                .font(.system(size: 9, weight: isCurrent ? .bold : .regular))
+                .foregroundStyle(isCurrent ? Color.fishBlue : Color.fishMuted)
         }
         .padding(.vertical, 6)
         .padding(.horizontal, 3)
-        .background(isCurrent ? Color.fishBlue.opacity(0.15) : Color.clear)
-        .clipShape(RoundedRectangle(cornerRadius: 8))
+        .background(isCurrent ? Color.fishBlue.opacity(0.12) : Color.clear)
+        .clipShape(RoundedRectangle(cornerRadius: 10))
+        .overlay(
+            isCurrent
+                ? RoundedRectangle(cornerRadius: 10).stroke(Color.fishBlue.opacity(0.4), lineWidth: 1)
+                : nil
+        )
     }
 }

@@ -1,5 +1,6 @@
 import Foundation
 import Combine
+import CoreLocation
 
 @MainActor
 final class AppViewModel: ObservableObject {
@@ -10,6 +11,8 @@ final class AppViewModel: ObservableObject {
     @Published var spots: [FishingSpot] = []
     @Published var isLoading = false
     @Published var errorMessage: String?
+    @Published var selectedCoordinate: CLLocationCoordinate2D?
+    @Published var selectedLocationName: String = ""
 
     init() {
         if let token = UserDefaults.standard.string(forKey: "auth_token"),
@@ -52,7 +55,9 @@ final class AppViewModel: ObservableObject {
         }
     }
 
-    func fetchPrediction(lat: Double, lon: Double) async {
+    func fetchPrediction(lat: Double, lon: Double, locationName: String = "") async {
+        selectedCoordinate = CLLocationCoordinate2D(latitude: lat, longitude: lon)
+        if !locationName.isEmpty { selectedLocationName = locationName }
         isLoading = true
         errorMessage = nil
         defer { isLoading = false }
@@ -107,6 +112,8 @@ final class AppViewModel: ObservableObject {
         nickname = ""
         prediction = nil
         hourly = []
+        selectedCoordinate = nil
+        selectedLocationName = ""
     }
 
     private func persist(token: String, nickname: String) {
